@@ -348,10 +348,10 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
+/* .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-}
+} */
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -773,6 +773,7 @@ h4 {
     width: 90%;
     height: auto;
 }
+
 
 .portfolio-row {
     margin-bottom: 44px;
