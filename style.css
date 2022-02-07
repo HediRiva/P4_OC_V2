@@ -388,7 +388,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 100px;
+        right: 10px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -674,9 +674,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    /* color: #575757!important; */
+    color: #000000!important;
     text-decoration: none;
-    font-display: swap;
 }
 
 
@@ -684,9 +683,9 @@ label {
     display: block;
     padding-bottom: 7px;
 }
-/* .container {
+.container {
     max-width: 1000px;
-} */
+}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -772,7 +771,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -813,12 +812,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
     background: #b35b31;
-    color: #FFFFFF!important;
+    color: #000000!important;
     cursor: pointer;
 }
 
@@ -831,7 +830,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f1753b!important;
 }
 
 .ltc-atomic-tangerine:hover {
