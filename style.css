@@ -13,8 +13,6 @@ button {
     outline: none!important;
 }
 
-
-
 blockquote {
     margin: 0;
     border: none;
@@ -772,6 +770,8 @@ h4 {
 
 .portfolio-thumb {
     margin: auto;
+    width: 90%;
+    height: auto;
 }
 
 .portfolio-row {
