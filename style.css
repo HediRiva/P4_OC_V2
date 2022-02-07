@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none;
+    outline: none!important;
 }
 
 
@@ -34,7 +34,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    /* width: 100%; */
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -79,10 +79,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
+    -webkit-background-size: auto!important;
+    -moz-background-size: auto!important;
+    -o-background-size: auto!important;
+    background-size: auto!important;
 }
 
 .bg-repeat {
@@ -114,6 +114,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    text-align: center;
 }
 
 .d-bloc button:hover {
@@ -340,6 +341,9 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    padding-right: 20px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -357,7 +361,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent;
+    background: transparent!important;
 }
 
 .navbar-toggle .icon-bar {
@@ -380,7 +384,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 100px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -418,7 +422,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none;
+    background: none!important;
     display: block;
     padding: 14px 15px;
 }
@@ -445,7 +449,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0;
+    margin: 6px -5px 0 0!important;
     float: right;
 }
 
@@ -475,7 +479,7 @@ nav .caret {
 }
 
 button {
-    outline: none;
+    outline: none!important;
 }
 
 .btn-rd {
@@ -490,11 +494,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px;
+    font-size: 30px!important;
 }
 
 .icon-lg {
-    font-size: 60px;
+    font-size: 60px!important;
 }
 
 .sm-shadow {
@@ -522,6 +526,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin-bottom: 10px;
 }
 
 .scrollToTop {
@@ -665,15 +670,22 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    /* color: #575757!important; */
+    text-decoration: none;
 }
 
-.container {
-    max-width: 1000px;
+
+label {
+    display: block;
+    padding-bottom: 7px;
 }
+/* .container {
+    max-width: 1000px;
+} */
 
 .hero-bloc-text {
     font-size: 38px;
+    font-weight: 800;
 }
 
 .hero-bloc-text-sub {
@@ -706,7 +718,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -728,7 +740,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333;
+    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -738,11 +750,11 @@ h3 {
 }
 
 h1 {
-    color: #333333;
+    color: #333333!important;
 }
 
 h4 {
-    color: #333333;
+    color: #333333!important;
 }
 
 .icons {
@@ -751,7 +763,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -774,7 +786,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline;
+    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -790,7 +802,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #ffffff!important;
 }
 
 
@@ -800,29 +812,30 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
-    color: #FFFFFF;
+    background: #b35b31;
+    color: #FFFFFF!important;
+    cursor: pointer;
 }
 
 .ltc-white {
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc;
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577;
-    border-color: #364577;
+    color: #364577!important;
+    border-color: #364577!important;
 }
 
 .bg-dots-bg {
@@ -916,8 +929,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -925,7 +938,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none;
+        float: none!important;
     }
     .navbar.row {
         margin-left: 0;
@@ -950,7 +963,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px;
+        margin: 5px 0 0 10px!important;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
